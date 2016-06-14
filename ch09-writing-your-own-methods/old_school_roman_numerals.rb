@@ -13,6 +13,7 @@ def old_roman_numeral num
   output << "V" * (num/5)
   num = num%5
   output << "I" * num
+  puts output
   return output
 end
 
